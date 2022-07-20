@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(247, 192, 54);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.144);
+}
+
+.content {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-family: 'Hubballi', cursive;
+    color: white;
+    font-size: 34px;
+    letter-spacing: 1px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.sign_up,
+.sign_in {
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.sign_up:hover,
+.sign_in:hover {
+    filter: brightness(0.9);
+}
+
+.sign_up {
+    background-color:rgb(235, 72, 72);
+}
+
+.sign_in {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+

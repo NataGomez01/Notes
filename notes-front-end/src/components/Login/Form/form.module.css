@@ -1,0 +1,55 @@
+.content {
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.form {
+    display: grid;
+    margin: 0px 15px;
+}
+
+.h1 {
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.input_title {
+    border-bottom: 2px solid black;
+    padding: 5px 0px 5px 10px;
+    font-size: 20px;
+    outline: none;
+    margin: 20px 0px;
+    font-family: monospace;
+}
+
+.textarea {
+    height: 300px;
+    resize: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 20px;
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(0.9);
+}
+
+.img {
+    width: 30px;
+    cursor: pointer;
+}
+
